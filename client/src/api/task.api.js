@@ -1,4 +1,4 @@
-const BASE_URL = "another-todo-app.up.railway.app/api/tasks";
+const BASE_URL = "https://another-todo-app.up.railway.app/api/tasks/";
 
 export const getTasks = async () => {
     const response = await fetch(BASE_URL);
